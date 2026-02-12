@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM Beauty Professional Salon</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN for official icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <img src="images/logo.png" alt="MM Beauty Professional Salon Logo" class="logo">
+        <h1>MM Beauty Professional Salon</h1>
+        <p class="tagline">Where Beauty Blooms</p>
+        <div class="hero-buttons">
+            <a href="tel:9996667310" class="btn yellow"><i class="fas fa-phone"></i> Call Now (9996667310)</a>
+            <a href="tel:9416351478" class="btn yellow"><i class="fas fa-phone"></i> Call Now (9416351478)</a>
+         
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>At MM Beauty Professional Salon, we specialize in premium beauty services including bridal makeup, hair styling, facials, waxing, hair spa, keratin treatments, smoothing, and party makeup. Our expert team ensures you look and feel your best with professional care and elegance.</p>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="images/bridal.jpg" alt="Bridal makeup service">
+                <img src="images/hair-wash.jpg" alt="Hair wash or treatment service">
+                <img src="images/salon-inside.jpg" alt="Salon interior">
+                <img src="images/salon-front.jpg" alt="Salon front view">
+            </div>
+        </section>
+
+        <
+        <section style="background:#000; color:#fff; padding:30px 15px; text-align:center;">
+
+<h2 style="color:#FFD700; font-size:28px;">Contact Us</h2>
+
+<p style="font-size:18px; margin:10px 0;">
+📍 9/4 Gali Tibba Colony, Ratia, Haryana
+</p>
+
+<p style="font-size:18px;">
+📞 <a href="tel:9996667310" style="color:#FFD700; text-decoration:none;">9996667310</a>
+</p>
+
+<!-- Google Map Embed -->
+<div style="margin-top:15px;">
+<iframe 
+src="https://www.google.com/maps?q=9/4+Gali+Tibba+Colony+Ratia+Haryana&output=embed"
+width="100%" 
+height="250" 
+style="border:0; border-radius:12px;" 
+allowfullscreen="" 
+loading="lazy">
+</iframe>
+</div>
+
+<!-- Social Icons -->
+<div style="margin-top:20px; display:flex; justify-content:center; gap:20px;">
+
+<a href="https://instagram.com/mm_beauty.saloon" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="40">
+</a>
+
+<a href="https://wa.me/919996667310" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="40">
+</a>
+
+</div>
+<!-- Why Choose Us -->
+<h2 style="color:#FFD700; margin-top:40px; text-align:center;">
+Why Choose Us
+</h2>
+
+<div style="text-align:center; color:white; line-height:28px;">
+✔ 10+ Years Experience<br>
+✔ Professional & Certified Staff<br>
+✔ Premium Quality Products<br>
+✔ 100% Customer Satisfaction
+</div>
+
+<!-- Customer Reviews -->
+<h2 style="color:#FFD700; margin-top:40px; text-align:center;">
+Customer Reviews
+</h2>
+
+<div style="text-align:center; color:white; line-height:28px;">
+⭐️⭐️⭐️⭐️⭐️<br>
+"Best Salon in Ratia!"<br><br>
+
+⭐️⭐️⭐️⭐️⭐️<br>
+"Excellent bridal makeup and service!"
+</div>
+<p style="margin-top:25px; color:#FFD700; font-size:18px;">
+Serving beauty with trust and excellence for over 10 years ✨
+</p>
+<!-- Business Hours -->
+<h2 style="color:#FFD700; margin-top:30px; text-align:center;">Business Hours</h2>
+
+<div style="text-align:center; color:white; line-height:28px;">
+Monday – Sunday<br>
+10:00 AM – 08:00 PM
+</div>
+<h3 id="status" style="margin-top:15px; text-align:center;"></h3>
+
+<script>
+  const now = new Date();
+  const hour = now.getHours();
+  const status = document.getElementById("status");
+
+  if (hour >= 10 && hour < 20) {
+    status.innerHTML = "🟢 We Are Open Now";
+    status.style.color = "#00ff00";
+  } else {
+    status.innerHTML = "🔴 We Are Closed Now";
+    status.style.color = "#ff0000";
+  }
+</script>
+<p style="color:#FFD700; margin-top:10px; text-align:center;">
+📞 Same Day Appointment Available
+</p>
+
+<!-- Make Appointment Start -->
+<h2 style="color:#FFD700; margin-top:40px; text-align:center;">
+Make an Appointment
+</h2>
+
+<div style="text-align:center; margin-top:15px;">
+<input type="date" style="padding:10px; border-radius:8px; width:80%;"><br><br>
+<input type="time" style="padding:10px; border-radius:8px; width:80%;"><br><br>
+<a href="https://wa.me/919996667310" 
+style="background:#25D366; padding:12px 25px; border-radius:8px; color:white; text-decoration:none; font-weight:bold;">
+Book via WhatsApp
+</a>
+</div>
+<!-- Make Appointment End -->
+</section>
